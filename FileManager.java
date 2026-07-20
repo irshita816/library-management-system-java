@@ -65,7 +65,7 @@ public class FileManager {
 
                 book.setIssued(Boolean.parseBoolean(data[4]));
 
-                books.add(book);
+                FileManager.saveBooks(books);
 
             }
 
