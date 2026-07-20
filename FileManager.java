@@ -36,7 +36,7 @@ public class FileManager {
     // Load books from file
     public static ArrayList<Book> loadBooks() {
 
-        ArrayList<Book> books = new ArrayList<>();
+        ArrayList<Book> books = FileManager.loadBooks();
 
         try {
 
